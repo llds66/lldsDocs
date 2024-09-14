@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "lldsDocs"
   # text: ""
-  tagline: 学习记录 项目总结(更新迁移中)
+  tagline: 学习记录 项目总结
   # actions:
   #   - theme: brand
   #     text: Markdown Examples

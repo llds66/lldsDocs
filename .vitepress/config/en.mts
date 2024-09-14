@@ -1,16 +1,16 @@
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export const en =  defineConfig({
   title: "lldsDocs",
   description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '首页', link: '/' },
-      { text: 'Learn', link: '/learn' },
-      { text: 'Project', link: '/projects' },
-      { text: '个人网站', link: 'https://llds.cc' }
+      { text: 'Home', link: '/en' },
+      { text: 'Learn', link: '/en/learn/vuejs' },
+      { text: 'Project', link: '/en/projects' },
+      { text: 'PersonWeb', link: 'https://llds.cc' }
     ],
     sidebar: {
       // learn 知识点页面侧边栏
@@ -72,7 +72,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/llds66' }
+      { icon: 'github', link: 'https://github.com/llds66/lldsDocs' }
     ]
   }
 })
