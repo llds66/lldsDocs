@@ -2,14 +2,14 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export const zh =  defineConfig({
-  title: "lldsDocs",
+  title: "学习文档",
   description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
       { text: '学习', link: '/learning' },
-      { text: 'Project', link: '/projects' },
+      { text: '项目', link: '/projects' },
       { text: '个人网站', link: 'https://llds.cc' }
     ],
     sidebar: {
