@@ -101,7 +101,9 @@ export const zh =  defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/llds66/lldsDocs' }
+      { icon: 'github', link: 'https://github.com/llds66/lldsDocs' },
+      { icon: 'discord', link: 'https://discord.gg/GHECRvjSf4' },
+
     ]
   }
 })
