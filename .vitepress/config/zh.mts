@@ -41,6 +41,7 @@ export const zh =  defineConfig({
           collapsed: true,
           items: [
             { text: 'ui 介绍', link: '/learning/UI/overview' },
+            { text: 'vue3 集成', link: '/learning/UI/vue3-ui' },
           ]
         },
         {
