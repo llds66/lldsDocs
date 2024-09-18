@@ -1,6 +1,7 @@
 ---
 title: Vue3 集成
 date: 2024/9/17
+updateTime: 2024-09-18 09:16:43
 ---
 
 > [Vue3 创建Vue应用](https://cn.vuejs.org/guide/quick-start.html#creating-a-vue-application)

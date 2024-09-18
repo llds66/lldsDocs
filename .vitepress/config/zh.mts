@@ -42,6 +42,7 @@ export const zh =  defineConfig({
           items: [
             { text: 'ui 介绍', link: '/learning/UI/overview' },
             { text: 'vue3 集成', link: '/learning/UI/vue3-ui' },
+            { text: 'nuxt3 集成', link: '/learning/UI/nuxt3-ui' },
           ]
         },
         {
@@ -98,6 +99,20 @@ export const zh =  defineConfig({
           ]
         },
       ]
+    },
+    outline: {
+      label: '导航'
+    },
+    editLink: {
+      pattern: 'https://github.com/llds66/lldsDocs/tree/main/:path',
+      text: '在 GitHub 上编辑此页面'
+    },
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'short',
+        timeStyle: 'medium'
+      }
     },
 
     socialLinks: [
