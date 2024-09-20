@@ -87,7 +87,7 @@ export default defineConfig({
 npm install -D unocss
 ```
 
-配置[vite.config.ts]()
+配置vite.config.ts
 
 ```ts
 import UnoCSS from 'unocss/vite'
@@ -174,7 +174,7 @@ export default defineConfig({
 ```
 
 3. **使用**
-在 class 使用   `<prefix><collection>-<icon>` 或者  `<prefix><collection>:<icon>`
+在 class 使用   `<prefix><collection>-<icon>` 或者 	 `<prefix><collection>:<icon>`
 
 
 ------
