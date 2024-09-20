@@ -8,7 +8,7 @@ createDate: 2024-09-17 22:43:06
 lastUpdated: 2024-09-19 09:37:21
 ---
 
-> [Vue3 创建Vue应用](https://cn.vuejs.org/guide/quick-start.html#creating-a-vue-application)s
+> [Vue3 创建Vue应用](https://cn.vuejs.org/guide/quick-start.html#creating-a-vue-application)
 >
 > [PrimeVue with Vite](https://primevue.org/vite/)
 >
