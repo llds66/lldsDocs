@@ -2,7 +2,7 @@
 title: Vue3 集成
 date: 2024/9/17
 updateTime: 2024-09-18 09:16:43
-description: ""
+description: 
 editLink: ""
 createDate: 2024-09-17 22:43:06
 lastUpdated: 2024-09-19 09:37:21
@@ -87,7 +87,7 @@ export default defineConfig({
 npm install -D unocss
 ```
 
-配置vite.config.ts
+配置[vite.config.ts]()
 
 ```ts
 import UnoCSS from 'unocss/vite'
@@ -120,8 +120,6 @@ export default defineConfig({
 // unocss
 import "uno.css"
 ```
-
-
 
 ## 安装 CSS Icons (可选)
 
