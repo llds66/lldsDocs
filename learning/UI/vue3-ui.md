@@ -18,9 +18,9 @@ lastUpdated: 2024-09-19 09:37:21
 
 # Vue3 + Primevue + UnoCSS
 
-<div style="display:flex;justify-content:space-between">
+<div style="display:flex;justify-content:center;margin-top:40px">
 <img src="https://cdn.jsdelivr.net/gh/llds66/imageBed/githubImage/20240524/LogosVue.png" alt="LogosVue" style="width:55px" />
-<img src="https://cdn.jsdelivr.net/gh/llds66/imageBed/githubImage/20240524/3494069.png">
+<img src="https://cdn.jsdelivr.net/gh/llds66/imageBed/githubImage/20240524/3494069.png" style="padding-left:20px;padding-right:20px">
 <img src="https://cdn.jsdelivr.net/gh/llds66/imageBed/githubImage/20240524/logo.svg" style="width:50px">
 </div>
 

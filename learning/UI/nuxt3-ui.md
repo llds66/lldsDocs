@@ -14,9 +14,9 @@ createDate: 2024-09-18 10:04:38
 
 # Nuxt3 + Primevue + UnoCSS
 
-<div style="display:flex;justify-content:space-between">
+<div style="display:flex;justify-content:center;margin-top:40px">
 <img src="https://cdn.jsdelivr.net/gh/llds66/imageBed/githubImage/20240524/LogosNuxtIcon%20(1).png" style="width:70px">
-<img src="https://cdn.jsdelivr.net/gh/llds66/imageBed/githubImage/20240524/3494069.png">
+<img src="https://cdn.jsdelivr.net/gh/llds66/imageBed/githubImage/20240524/3494069.png" style="padding-left:20px;padding-right:20px">
 <img src="https://cdn.jsdelivr.net/gh/llds66/imageBed/githubImage/20240524/logo.svg" style="width:50px">
 </div>
 
