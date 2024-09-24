@@ -7,6 +7,8 @@ date: 2024/4/22
 
 > VueJS [中文文档](https://cn.vuejs.org/)
 
+<img src="https://cdn.jsdelivr.net/gh/llds66/imageBed/githubImage/20240524/LogosVue.png" alt="LogosVue" style="zoom:50%;" />
+
 *渐进式JavaScript 框架，易学易用，性能出色，适用场景丰富的 Web 前端框架。*
 
 渐进式框架，Vue 的设计非常注重灵活性和“可以被逐步集成”这个特点，不同的方式使用 Vue：

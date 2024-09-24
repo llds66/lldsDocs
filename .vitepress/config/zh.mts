@@ -79,6 +79,7 @@ export const zh =  defineConfig({
           collapsed: true,
           items: [
             { text: 'nestjs 介绍', link: '/learning/NestJS/overview' },
+            { text: 'nestjs 学习', link: '/learning/NestJS/study_nest' },
           ]
         },
       ],
