@@ -7,7 +7,7 @@ date: 2024/4/22
 
 > VueJS [中文文档](https://cn.vuejs.org/)
 
-<img src="https://cdn.jsdelivr.net/gh/llds66/imageBed/githubImage/20240524/LogosVue.png" alt="LogosVue" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/llds66/imageBed/githubImage/20240524/LogosVue.png" alt="LogosVue" style="margin:auto;width:20%" />
 
 *渐进式JavaScript 框架，易学易用，性能出色，适用场景丰富的 Web 前端框架。*
 

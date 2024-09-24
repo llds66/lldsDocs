@@ -11,7 +11,7 @@ date: 2024/4/22
 >
 > NestJS [中文文档 ](https://docs.nestjs.cn/)
 
-<img src="https://nestjs.com/logo-small-gradient.76616405.svg" alt="图片描述" width="40%" style="margin:auto" />
+<img src="https://nestjs.com/logo-small-gradient.76616405.svg" alt="图片描述" width="30%" style="margin:auto" />
 
 *一个先进的 **Node.js** 框架，用于构建高效、可靠和可扩展的服务器端应用程序。*
 

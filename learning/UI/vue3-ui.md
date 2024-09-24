@@ -1,5 +1,5 @@
 ---
-title: Vue3 集成
+title: Vue3 集成Primevue
 date: 2024/9/17
 updateTime: 2024-09-18 09:16:43
 description: 
@@ -17,6 +17,14 @@ lastUpdated: 2024-09-19 09:37:21
 > [UnoCSS Vite Plugin](https://unocss.dev/integrations/vite)
 
 # Vue3 + Primevue + UnoCSS
+
+<div style="display:flex;justify-content:space-between">
+<img src="https://cdn.jsdelivr.net/gh/llds66/imageBed/githubImage/20240524/LogosVue.png" alt="LogosVue" style="width:55px" />
+<img src="https://cdn.jsdelivr.net/gh/llds66/imageBed/githubImage/20240524/3494069.png">
+<img src="https://cdn.jsdelivr.net/gh/llds66/imageBed/githubImage/20240524/logo.svg" style="width:50px">
+</div>
+
+
 
 ## 创建 Vue3 项目
 
@@ -87,7 +95,7 @@ export default defineConfig({
 npm install -D unocss
 ```
 
-配置vite.config.ts
+配置 `vite.config.ts`
 
 ```ts
 import UnoCSS from 'unocss/vite'
@@ -100,7 +108,7 @@ export default defineConfig({
 })
 ```
 
-项目根目录创建uno.config.ts
+项目根目录创建 `uno.config.ts`
 
 ```ts
 import { defineConfig, presetAttributify, presetUno } from 'unocss'
@@ -109,7 +117,6 @@ export default defineConfig({
   presets: [
     presetAttributify({ /* preset options */}),
     presetUno(),
-    // ...custom presets
   ],
 })
 ```
@@ -121,13 +128,17 @@ export default defineConfig({
 import "uno.css"
 ```
 
-## 安装 CSS Icons (可选)
+## 安装 CSS Icon (可选)
 
-+ [PrimevueIcons List](https://primevue.org/icons/#list)
-+ [UnoCSS Icons](https://unocss.dev/presets/icons)
-+ [Icones 所有图标集合](https://icones.js.org/)
+> [PrimevueIcons List](https://primevue.org/icons/#list)
+>
+> [Primevue icon](https://primevue.org/icons/)
+>
+> [UnoCSS Icon](https://unocss.dev/presets/icons)
+>
+> [Icones 所有图标集合](https://icones.js.org/)
 
-### PrimevueIcons
+### PrimevueIcon
 
 
 
@@ -147,7 +158,7 @@ import 'primeicons/primeicons.css'
 
 `i或span` 等元素中使用 `pi pi-{icon}` ,也可以在组件中使用.
 
-### UnoCSS Icons
+### UnoCSS Icon
 
 1. **安装图标集合**
 

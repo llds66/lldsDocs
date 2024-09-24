@@ -7,7 +7,7 @@ date: 2024/9/24
 
 > NodeJS [中文文档 ](https://nodejs.org/zh-cn)
 
-<img src="https://cdn.jsdelivr.net/gh/llds66/imageBed/githubImage/20240524/nodejsDark.svg" alt="Node.js Logo" />
+<img src="https://cdn.jsdelivr.net/gh/llds66/imageBed/githubImage/20240524/nodejsDark.svg" alt="Node.js Logo" style="margin:auto;width:40%" />
 
 Node.js 是一个开源、跨平台的 JavaScript 运行时环境。它是几乎适用于任何类型项目的流行工具！
 
