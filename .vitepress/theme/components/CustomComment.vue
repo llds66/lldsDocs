@@ -7,7 +7,7 @@ const options = {
     owner: 'llds66',
     repo: 'webComment',
     clientId: 'Iv23liPqHYQciCUs1hfb',
-    darkMode: true,
+    darkMode: false,
     proxy: 'https://llds.fun'
 }
 onMounted(() => {
