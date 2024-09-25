@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export const zh = defineConfig({
   title: "学习文档",
   description: "A VitePress Site",
+  lastUpdated: true,
   themeConfig: {
     lastUpdated: true,
     lastUpdatedText: "最新更新",
