@@ -1,5 +1,5 @@
 <script setup lang='ts'>
-import { init } from "./cwgi.js"
+// import { init } from "./cwgi.js"
 import { onMounted } from 'vue';
 
 const githubIssueId = 3;
@@ -11,7 +11,11 @@ const options = {
     proxy: 'https://llds.fun'
 }
 onMounted(() => {
-    init(githubIssueId, options)
+    import("./cwgi.js").then(({ init }) => {
+        init(githubIssueId, options)
+
+    })
+
 })
 </script>
 
