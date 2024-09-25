@@ -1,11 +1,12 @@
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
-export const zh =  defineConfig({
+export const zh = defineConfig({
   title: "学习文档",
   description: "A VitePress Site",
-  lastUpdated: true,
   themeConfig: {
+    lastUpdated: true,
+    lastUpdatedText: "最新更新",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
@@ -109,14 +110,6 @@ export const zh =  defineConfig({
       pattern: 'https://github.com/llds66/lldsDocs/tree/main/:path',
       text: '在 GitHub 上编辑此页面'
     },
-    lastUpdated: {
-      text: '最后更新于',
-      formatOptions: {
-        dateStyle: 'short',
-        timeStyle: 'medium'
-      }
-    },
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/llds66/lldsDocs' },
       { icon: 'discord', link: 'https://discord.gg/GHECRvjSf4' },
