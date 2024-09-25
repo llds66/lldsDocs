@@ -6,7 +6,9 @@ export const zh = defineConfig({
   description: "A VitePress Site",
   lastUpdated: true,
   head: [
+    ['link', { rel: 'stylesheet', href: 'https://cwgi-cli.jw1.dev/style.css' }],
     ['link', { rel: 'stylesheet', href: 'https://cwgi-cli.jw1.dev/style.css' }]
+
   ],
   themeConfig: {
     lastUpdated: {

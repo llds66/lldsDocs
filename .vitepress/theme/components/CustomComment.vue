@@ -1,5 +1,5 @@
 <script setup lang='ts'>
-import {init} from "https://cwgi-cli.jw1.dev/cwgi.js"
+import { init } from "./cwgi.js"
 import { onMounted } from 'vue';
 
 const githubIssueId = 3;
@@ -16,7 +16,7 @@ onMounted(() => {
 </script>
 
 <template>
- <div id="cwgi_box" style="margin-top: 50px;"></div>
+    <div id="cwgi_box" style="margin-top: 50px;"></div>
 </template>
 
 <style>
