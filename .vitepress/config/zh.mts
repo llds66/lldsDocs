@@ -6,8 +6,13 @@ export const zh = defineConfig({
   description: "A VitePress Site",
   lastUpdated: true,
   themeConfig: {
-    lastUpdated: true,
-    lastUpdatedText: "最新更新",
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'short', // 可选值full、long、medium、short
+        timeStyle: 'medium' // 可选值full、long、medium、short
+      },
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
