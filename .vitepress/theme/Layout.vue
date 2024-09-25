@@ -41,7 +41,11 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 </script>
 
 <template>
-  <DefaultTheme.Layout />
+  <DefaultTheme.Layout>
+    <template #doc-after>
+            <CustomComment></CustomComment>
+        </template>
+  </DefaultTheme.Layout>
 </template>
 
 <style>
