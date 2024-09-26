@@ -8,6 +8,7 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
+    "medium-zoom": "^1.1.0",
     "vue": "^3.5.8",
     "vue-router": "^4.4.5"
   }
