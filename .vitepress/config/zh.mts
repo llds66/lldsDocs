@@ -30,6 +30,11 @@ export const zh = defineConfig({
       // learning 知识点页面侧边栏
       '/learning/': [
         {
+          text: '学习路线',
+          collapsed: true,
+          link: '/learning/' 
+        },
+        {
           text: 'HTML',
           collapsed: true,
           items: [

@@ -13,6 +13,7 @@ const options = {
 // 模拟获取或生成对应的 GitHub issue id 的函数
 const getGithubIssueId = (path: string): number => {
     const issueMap = {
+        '/learning/': 12,
         '/learning/HTML/overview.html': 3,
         '/learning/CSS/overview.html': 4,
         '/learning/JavaScript/overview.html': 5,
