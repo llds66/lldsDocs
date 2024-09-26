@@ -27,7 +27,7 @@ const getGithubIssueId = (path: string): number => {
         '/learning/NestJS/overview.html': 11,
         '/learning/NestJS/study_nest.html': 11,
     };
-    return issueMap[path] || 1; // 1 表示没有对应的 issue id
+    return issueMap[path] || 12; // 1 表示没有对应的 issue id
 };
 
 const route = useRoute(); // 获取当前的路由对象
